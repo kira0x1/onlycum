@@ -49,8 +49,8 @@ var makeItRain = function() {
 	<img id="anti-pic" src="./anti.png" alt="anti"/>
 	
 	<button id="btn-anim" on:click={handleBuy}><span>Cum 🥛</span></button>
-	<div class="rain back-row"></div>	
-	<div class="rain front-row"></div>
+	<div class="rain back-row" style="width:80%; height:40%; margin: auto;"></div>	
+	<div class="rain front-row" style="width:80%; height:40%; margin: auto;"></div>
 </main>
 
 
